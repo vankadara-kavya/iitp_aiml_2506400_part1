@@ -2,7 +2,7 @@
 
 ## What this is
 
-Looked at 7 data files about 2,400 customers from a personal-care brand to find data quality problems, explore patterns, and tried to understand why customers are leaving (churning).
+I looked at 7 data files about 2,400 customers from a personal-care brand to find data quality problems, explore patterns, and understand why customers are leaving (churning).
 
 ## How to run this
 
@@ -28,12 +28,12 @@ You need these 7 CSV files:
 - rfm_modeling_snapshot.csv
 - intervention_history.csv
 
-**Step 4:** Run the script
+**Step 4:** Open the notebook
 ```bash
-python3 eda_audit.py
+jupyter notebook eda_audit.ipynb
 ```
 
-Charts will be saved in the `charts/` folder automatically.
+Run all cells. Charts will be saved in the `charts/` folder automatically.
 
 ## What's in this folder
 
@@ -41,7 +41,7 @@ Charts will be saved in the `charts/` folder automatically.
 Part1_Data_Audit_EDA/
 ├── data/                        ← Put the CSV files here
 ├── charts/                      ← Charts get saved here when you run the script
-├── eda_audit.py                 ← The main analysis code
+├── eda_audit.ipynb              ← The main analysis notebook
 ├── data_quality_report.md       ← What data problems I found and how I handled them
 ├── business_memo.md             ← Summary of findings for non-technical readers
 ├── requirements.txt             ← List of Python packages needed
